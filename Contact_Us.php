@@ -128,7 +128,7 @@ function remove_email_injection($field = FALSE) {
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="#">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="gallery.html">Gallery</a></li>
             <li><a href="events.html">Events</a></li>
@@ -138,7 +138,7 @@ function remove_email_injection($field = FALSE) {
             <li><a href="https://www.facebook.com/OASatOSU" target="_blank" title= "Facebook"><img src="img/png/16-facebook.png" ></a></li>
             <li><a href="https://www.twitter.com/OASatOSU" target="_blank" title= "Twitter"><img src="img/png/16-twitter.png" ></a></li>
             <li><a href="https://www.instagram.com/OASatOSU" target="_blank" title= "Instagram"><img src="img/png/16-instagram.png" ></a></li>
-            <li><a href="Contact_Us.php" target="_blank" title= "Facebook Group"><img src="img/png/16-email.png" ></a></li>
+            <li><a href="Contact_Us.php" target="_blank" title= "Mailing list"><img src="img/png/16-email.png" ></a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
