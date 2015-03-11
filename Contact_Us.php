@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 // Set email variables
 $email_to = 'deiratany.1@osu.edu';
@@ -138,7 +138,7 @@ function remove_email_injection($field = FALSE) {
             <li><a href="https://www.facebook.com/OASatOSU" target="_blank" title= "Facebook"><img src="img/png/16-facebook.png" ></a></li>
             <li><a href="https://www.twitter.com/OASatOSU" target="_blank" title= "Twitter"><img src="img/png/16-twitter.png" ></a></li>
             <li><a href="https://www.instagram.com/OASatOSU" target="_blank" title= "Instagram"><img src="img/png/16-instagram.png" ></a></li>
-            <li><a href="Contact_Us.php" target="_blank" title= "Mailing list"><img src="img/png/16-email.png" ></a></li>
+            <li><a href="Contact_Us.php" title= "Mailing list"><img src="img/png/16-email.png" ></a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
