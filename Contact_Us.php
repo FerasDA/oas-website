@@ -164,7 +164,7 @@ function remove_email_injection($field = FALSE) {
           <h2>We Appriciate your Feedback</h2>
           <div class="well">
         <p>Please feel free to contact us with any questions or concerns.<br />
-If you would like to be added to our mailing list, just fill out the following form with your name and email and type "add to mailing list" in the message section.<br />
+If you would like to be added to our mailing list, just fill out the <a href="Contact_Us.php#mc_embed_signup">form</a> at the end of this page.<br />
 If you have ideas for events, send us a message below or email any of the board members <a href="about.html#board">directly</a><br />
 </p>
       </div>
