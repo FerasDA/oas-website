@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 // Set email variables
 $email_to = 'deiratany.1@osu.edu';
@@ -112,49 +112,41 @@ function remove_email_injection($field = FALSE) {
 	  background-image:url(img/logo.png);
     }
 	</style>
+	<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+		#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	</style>
   </head>
   <body onload="MM_preloadImages('img/png/x.png')">
-	<!----Navigation Bar ----->
-        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="index.html"OAS at OSU</a>
-            </div>
-            <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-	            <li><a></a></li>
-                <li><a></a></li>
-                <li><a href="index.html">Home</a></li>
-                <li><a></a></li>
-                <li><a></a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a></a></li>
-                <li><a></a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a></a></li>
-                <li><a></a></li>
-                <li><a href="events.html">Events</a></li>
-                <li><a></a></li>
-                <li><a></a></li>
-                <li class="active"><a href="Contact_Us.php">Contact</a></li>
-                <li><a></a></li>
-                <li><a></a></li>
-                <li><a></a></li>
-                <li><a></a></li>
-                <li><a></a></li>
-                <li><a></a></li>
-                <li><a href="https://www.facebook.com/groups/oasatosu/" target="_blank" title= "Facebook Group"><img src="img/png/1408523116_social_facebook_box_blue.png" width="20" height="20"></a></li>
-              </ul>
-              </ul>
-            </div>
-          </div>
-        </div><!--./navigation bar -->
+  <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">OAS at OSU</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li class="active"><a href="Contact_Us.php#mc_embed_signup">Contact</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://www.facebook.com/OASatOSU" target="_blank" title= "Facebook"><img src="img/png/16-facebook.png" ></a></li>
+            <li><a href="https://www.twitter.com/OASatOSU" target="_blank" title= "Twitter"><img src="img/png/16-twitter.png" ></a></li>
+            <li><a href="https://www.instagram.com/OASatOSU" target="_blank" title= "Instagram"><img src="img/png/16-instagram.png" ></a></li>
+            <li><a href="Contact_Us.php" title= "Mailing list"><img src="img/png/16-email.png" ></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav><!--/.end of navbar-->
         
         <!-- grid layout-->	
       <div class="row">
@@ -172,7 +164,7 @@ function remove_email_injection($field = FALSE) {
           <h2>We Appriciate your Feedback</h2>
           <div class="well">
         <p>Please feel free to contact us with any questions or concerns.<br />
-If you would like to be added to our mailing list, just fill out the following form with your name and email and type "add to mailing list" in the message section.<br />
+If you would like to be added to our mailing list, just fill out the <a href="Contact_Us.php#mc_embed_signup">form</a> at the end of this page.<br />
 If you have ideas for events, send us a message below or email any of the board members <a href="about.html#board">directly</a><br />
 </p>
       </div>
@@ -206,6 +198,41 @@ If you have ideas for events, send us a message below or email any of the board 
                     
             </div>
           </div><!--./ form-->
+			<div class="row">
+				<div class="col-md-12"><br><br><br><br><br><br></div>
+			</div>
+		  <!-- Begin MailChimp Signup Form -->
+			
+			<div id="mc_embed_signup">
+			<form action="//osu.us10.list-manage.com/subscribe/post?u=49df03f59c5142395bf0a1acb&amp;id=4b3be325e4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+				<div id="mc_embed_signup_scroll">
+				<h2>Subscribe to our mailing list</h2>
+			<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+			<div class="mc-field-group">
+				<label for="mce-EMAIL">Email Address (required)  <span class="asterisk">*</span>
+			</label>
+				<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+			</div>
+			<div class="mc-field-group">
+				<label for="mce-FNAME">First Name </label>
+				<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+			</div>
+			<div class="mc-field-group">
+				<label for="mce-LNAME">Last Name </label>
+				<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+			</div>
+				<div id="mce-responses" class="clear">
+					<div class="response" id="mce-error-response" style="display:none"></div>
+					<div class="response" id="mce-success-response" style="display:none"></div>
+				</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+				<div style="position: absolute; left: -5000px;"><input type="text" name="b_49df03f59c5142395bf0a1acb_4b3be325e4" tabindex="-1" value=""></div>
+				<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+				</div>
+			</form>
+			</div>
+
+			<!--End mc_embed_signup-->
+		  
 		</div><!--./main body area-->
     <div class="col-md-2"></div> <!-- ./right side margin-->
   </div><!--./row-->
