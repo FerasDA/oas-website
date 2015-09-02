@@ -14,6 +14,9 @@
     <!-- Bootstrap theme -->
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
 
+    <!-- jQuery -->
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -27,6 +30,39 @@
 	  background-image:url(img/logo.png);
     }
 	</style>
+
+  <style>
+.panel-heading span {
+    margin-top: -20px;
+    font-size: 15px;
+}
+.row {
+    margin-top: 40px;
+    padding: 0 10px;
+}
+.clickable {
+    cursor: pointer;
+}    
+</style>
+
+<script type="text/javascript">
+    jQuery(function ($) {
+        $('.panel-heading span.clickable').on("click", function (e) {
+            if ($(this).hasClass('panel-collapsed')) {
+                // expand the panel
+                $(this).parents('.panel').find('.panel-body').slideDown();
+                $(this).removeClass('panel-collapsed');
+                $(this).find('i').removeClass('glyphicon-chevron-down').addClass('glyphicon-chevron-up');
+            }
+            else {
+                // collapse the panel
+                $(this).parents('.panel').find('.panel-body').slideUp();
+                $(this).addClass('panel-collapsed');
+                $(this).find('i').removeClass('glyphicon-chevron-up').addClass('glyphicon-chevron-down');
+            }
+        });
+    });
+</script>
     
   </head>
   <body>
@@ -90,13 +126,79 @@
           </div><!--./row->
           <!--./first panel-->
           
-          <!-- second panel -->
+      <!-- 2015 board panel -->
+      <div class="row">
+          <div class="col-md-2"></div>
+            <div class="col-xs-12 col-md-8">
+              <div class="panel panel-info">
+                <div class="panel-heading">
+                  <h3 class="panel-title" id="board"> 2015-2016 Executive Board</h3>
+                </div>
+                <div class="panel-body">The OAS is led by the following elected executive board members:
+                  <div class="row">
+                        <div class="col-md-12 col-xs-12">
+                          <table class="table">
+                            <thead>
+                              <tr>
+                                <th>President</th>
+                                <th><a href="mailto:moussa.11@buckeyemail.osu.edu">Daniel Moussa</a></th>
+                              </tr>
+                            </thead>
+                            <thead>
+                              <tr>
+                                <th>Vice President</th>
+                                <th><a href="mailto:deiratany.2@osu.edu">Kamal Deiratany</a></th>
+                              </tr>
+                            </thead>
+                            <thead>
+                              <tr>
+                                <th>Event Coordinator</th>
+                                <th><a href="mailto:khasawneh.11@osu.edu">Tala Khasawneh</a></th>
+                              </tr>
+                            </thead>
+                            <thead>
+                              <tr>
+                                <th>Secretary</th>
+                                <th><a href="mailto:karabatak.2@osu.edu">Zana Karabatak</a></th>
+                              </tr>
+                            </thead>
+                            <thead>
+                              <tr>
+                                <th>Treasurer</th>
+                                <th><a href="mailto:havez.5@osu.edu">Ubada Hafez</a></th>
+                              </tr>
+                            </thead>
+                            <thead>
+                              <tr>
+                                <th>Outreach Coordinator</th>
+                                <th><a href="mailto:alamir.2@buckeyemail.osu.edu">Lorette Alamir</a></th>
+                              </tr>
+                            </thead>
+                            <thead>
+                              <tr>
+                                <th>Service Chair</th>
+                                <th><a href="mailto:ahmad.169@osu.edu">Haia Ahmad</a></th>
+                              </tr>
+                            </thead>
+                          </table>
+                        </div><!--./col-md-12    for table-->
+              </div><!-- ./row -->
+             </div><!--./panel-body-->
+               </div><!-- /.panel-heaeding -->
+         </div><!--panel-info-->
+         </div><!--./col-sm-8-->
+           <div class="col-md-2"></div>
+         </div><!--./row-->
+         <!--./2015 board panel -->
+
+      <!-- 2014-15 Executive board panel -->
       <div class="row">
       		<div class="col-md-2"></div>
             <div class="col-xs-12 col-md-8">
               <div class="panel panel-info">
                 <div class="panel-heading">
-                  <h3 class="panel-title" id="board">Executive Board</h3>
+                  <h3 class="panel-title" id="board">2014-2015 Executive Board</h3>
+                  <span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-up"></i></span>
                 </div>
                 <div class="panel-body">The OAS is led by the following elected executive board members:
                 	<div class="row">
